@@ -1,4 +1,4 @@
-package msg
+package agcmsg
 
 type TestMsg struct {
 	Msg_Type	string	`json:"msg_type"`
