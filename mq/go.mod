@@ -1,4 +1,4 @@
-module github.com/new-agc/package-go/agcmq
+module github.com/new-agc/package-go/mq
 
 go 1.18
 
