@@ -1,7 +1,7 @@
 package agcmq
 
-func SendMessageQueue(argQueueName string, argBody string) {
 
+func SendMessageQueue(argQueueName string, argBody string) {
 	conn := NewConnection(argQueueName)
 	
 	if err := conn.Connect(); err != nil {
