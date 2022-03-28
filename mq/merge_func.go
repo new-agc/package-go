@@ -1,15 +1,8 @@
 package agcmq
 
-import (
-	"fmt"
-	"log"
-
-	amqp "github.com/rabbitmq/amqp091-go"
-)
-
 func SendMessageQueue(argQueueName string, argBody string) {
 
-	conn := agcmq.NewConnection(argQueueName)
+	conn := NewConnection(argQueueName)
 	
 	if err := conn.Connect(); err != nil {
 		panic(err)
