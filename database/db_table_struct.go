@@ -1,4 +1,4 @@
-package models
+package agcdb
 
 type Config struct {
 	AutoRunScore string
