@@ -10,8 +10,8 @@ import (
 
 //const amqpURI = "amqp://guest:guest@10.0.0.254:30013/"
 //const amqpURI = "amqp://guest:guest@ch4-rabbitmq:5672/"
-//const amqpURI = "amqp://admin:Ketilinux1@115.85.181.39:30011/"
-const amqpURI = "amqp://admin:admin@localhost:5672/"
+const amqpURI = "amqp://admin:Ketilinux1@10.0.7.4:31011/"
+//const amqpURI = "amqp://admin:admin@localhost:5672/"
 
 
 const (
@@ -19,6 +19,8 @@ const (
 	MQ_DockerfileBuilder = "BUILD_WAIT_QUEUE"
 	MQ_InferenceWait = "INFERENCE_WAIT_QUEUE"
 	MQ_QueryCommander = "QUERYING_WAIT_QUEUE"
+
+	MQ_NewAGC_TestQueue = "AGC_TEST_QUEUE"
 )
 
 //Connection is the connection created
