@@ -14,7 +14,7 @@ func SendMessageQueue(argQueueName string, argBody string) {
 	}
 }
 
-func ConsumeMessageQueue(argQueueName string) (string) {
+func ConsumeMessageQueue(argQueueName string) string {
 	conn := NewConnection(argQueueName)
 
 	if err := conn.Connect(); err != nil {
