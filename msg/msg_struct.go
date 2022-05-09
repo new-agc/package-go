@@ -88,3 +88,21 @@ type ProcessingStop struct {
 	Status			string	`json:"status"`
 	Log				string	`json:"log"`
 }
+
+//////////////////////////////////////////////////////////
+// [FrontWeb to Communicator] New AGC2022 test env message
+//////////////////////////////////////////////////////////
+
+type AnswerTest struct {
+	No				int		`json:"no"`
+	Value			string	`json:"value"`
+	Weight			string	`json:"weight"`
+}
+
+type TestMessage struct {
+	TeamName		string		`json:"team"`
+	Answer			AnswerTest	`json:"answer"`
+	Status			string		`json:"status"`
+}
+
+//////////////////////////////////////////////////////////
