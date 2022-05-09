@@ -96,7 +96,7 @@ type ProcessingStop struct {
 type AnswerTest struct {
 	No				int		`json:"no"`
 	Value			string	`json:"value"`
-	Weight			string	`json:"weight"`
+	Weight			int		`json:"weight"`
 }
 
 type TestMessage struct {
