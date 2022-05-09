@@ -8,13 +8,9 @@ import (
 	amqp "github.com/rabbitmq/amqp091-go"	
 )
 
-//const amqpURI = "amqp://guest:guest@10.0.0.254:30013/"
-//const amqpURI = "amqp://guest:guest@ch4-rabbitmq:5672/"
 
-//const amqpURI = "amqp://admin:Ketilinux1@10.0.7.4:31011/"
-const amqpURI = "amqp://admin:Ketilinux1@mq:5672/"
-
-//const amqpURI = "amqp://admin:admin@localhost:5672/"
+const amqpURI = "amqp://admin:Ketilinux1@10.0.7.4:31011/"
+//const amqpURI = "amqp://admin:Ketilinux1@mq:5672/"
 
 
 const (
