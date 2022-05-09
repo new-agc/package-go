@@ -14,18 +14,18 @@ func SendMessageQueue(argQueueName string, argBody string) {
 	}
 }
 
-func ConsumeMessageQueue(argQueueName string) string {
-	conn := NewConnection(argQueueName)
+// func ConsumeMessageQueue(argQueueName string) string {
+// 	conn := NewConnection(argQueueName)
 
-	if err := conn.Connect(); err != nil {
-		panic(err)
-	}
+// 	if err := conn.Connect(); err != nil {
+// 		panic(err)
+// 	}
 
-	defer conn.ChannelClose()
-	msgs, err := conn.Consume()
-	if err != nil {
-		panic(err)
-	}
+// 	defer conn.ChannelClose()
+// 	msgs, err := conn.Consume()
+// 	if err != nil {
+// 		panic(err)
+// 	}
 
-	return msgs
-}
+// 	return msgs
+// }
