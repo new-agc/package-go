@@ -101,7 +101,7 @@ type AnswerTest struct {
 
 type TestMessage struct {
 	TeamName		string		`json:"team"`
-	Answer			AnswerTest	`json:"answer"`
+	//Answer			AnswerTest	`json:"answer"`
 	Status			string		`json:"status"`
 }
 
