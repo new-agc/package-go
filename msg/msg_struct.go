@@ -93,7 +93,7 @@ type ProcessingStop struct {
 // [FrontWeb to Communicator] New AGC2022 test env message
 //////////////////////////////////////////////////////////
 
-type AnswerTest struct {
+type AnswerSheetTest struct {
 	No				int		`json:"no"`
 	Value			string	`json:"value"`
 }
