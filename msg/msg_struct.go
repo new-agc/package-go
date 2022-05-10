@@ -88,28 +88,3 @@ type ProcessingStop struct {
 	Status			string	`json:"status"`
 	Log				string	`json:"log"`
 }
-
-//////////////////////////////////////////////////////////
-// [FrontWeb to Communicator] New AGC2022 test env message
-//////////////////////////////////////////////////////////
-
-type AnswerSheetTest struct {
-	Answer			[]string	`json:"answer"`
-}
-
-type TestMessage struct {
-	TeamName		string				`json:"team"`
-	AnswerSheet		[]AnswerSheetTest	`json:"answer_sheet"`
-	Status			string				`json:"status"`
-}
-
-//////////////////////////////////////////////////////////
-
-//////////////////////////////////////////////////////////
-// strapi test message structure
-//////////////////////////////////////////////////////////
-// type Strapi_AGC2022 struct {
-// 	RecvMsg			string		`json:"recvmsg"`
-// 	Uid				int			`json:"uid"`
-// 	Date			string		`json:"date"`
-// }
