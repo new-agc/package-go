@@ -3,7 +3,7 @@ package strapi
 import (
 	"bytes"
 	"net/http"
-	"encoding/json"
+	"log"
 )
 
 func PostRequest (argURL string, argReqData []byte) {
