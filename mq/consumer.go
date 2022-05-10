@@ -3,7 +3,8 @@ package agcmq
 import (
 	"fmt"
 	
-	amqp "github.com/rabbitmq/amqp091-go"
+	//amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 //Consume consumes the messages from the queues and passes it as map of chan of amqp.Delivery
