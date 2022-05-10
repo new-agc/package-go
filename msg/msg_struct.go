@@ -105,7 +105,7 @@ type AnswerSheetTest struct {
 
 type TestMessage struct {
 	TeamName		string			`json:"team"`
-	AnswerSheet		[]string	`json:"answer_sheet"`
+	AnswerSheet		map[string]interface{}	`json:"answer_sheet"`
 	Status			string			`json:"status"`
 }
 
