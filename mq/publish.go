@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	//amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 //Publish publishes a request to the amqp queue
