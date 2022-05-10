@@ -1,3 +1,3 @@
-module github.com/new-agc/package-go/msg
+module new-agc/agc-packages/msg
 
 go 1.18
