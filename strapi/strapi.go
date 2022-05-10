@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 )
 
-func Strapi_PostRequest (argURL string, argReqData []byte) {
+func PostRequest (argURL string, argReqData []byte) {
 
 	url := argURL
 	postRest := argReqData
