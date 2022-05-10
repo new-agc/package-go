@@ -1,3 +1,3 @@
-module github.com/new-agc/agc-packages/strapi
+module github.com/new-agc/package-go/strapi
 
 go 1.18
