@@ -96,7 +96,6 @@ type ProcessingStop struct {
 type AnswerTest struct {
 	No				int		`json:"no"`
 	Value			string	`json:"value"`
-	Weight			int		`json:"weight"`
 }
 
 type TestMessage struct {
@@ -115,4 +114,3 @@ type Strapi_AGC2022 struct {
 	Uid				int			`json:"uid"`
 	Date			string		`json:"date"`
 }
-//////////////////////////////////////////////////////////
