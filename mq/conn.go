@@ -9,7 +9,7 @@ import (
 )
 
 
-const amqpURI = "amqp://admin:Ketilinux1@10.0.7.4:31011/"
+const amqpURI = "amqp://admin:Ketilinux1@10.0.7.5:31011/"
 //const amqpURI = "amqp://admin:Ketilinux1@mq:5672/"
 
 
