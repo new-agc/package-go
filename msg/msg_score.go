@@ -24,3 +24,10 @@ type AGCTestMessage struct {
 	AnswerSheet		[]string		`json:"answer_sheet"`
 	Status			string			`json:"status"`
 }
+
+type CommonAnswerMessage struct {
+	TeamName		string			`json:"team"`
+	Secret			string			`json:"secret"`
+	Track			string			`json:"track"`
+	AnswerSheet		[]string		`json:"answer_sheet"`
+}
